@@ -1,0 +1,119 @@
+.about {
+    height: 100%;
+    min-height: 100vh;
+    background: var(--bg-color-sec);
+}
+.about h1 {
+    padding-bottom: 25px;
+    line-height: 1;
+    text-align: center;
+    color: var(--h1-color);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.content h4 {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #045483;
+}
+
+.about section {
+    margin: 30px 40px;
+    padding: 30px;
+}
+
+.education ul,
+.languages ul {
+    /* border-left: 1px solid #47a3da; */
+}
+
+.education ul li,
+.languages ul li {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    position: relative;
+}
+
+.education ul li::after,
+.languages ul li::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: -5px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #47a3da;
+}
+
+.education ul li span,
+.languages ul li span {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--span-color);
+}
+
+.education ul li strong,
+.languages ul li strong {
+    margin-top: 8px;
+    font-size: 17px;
+    color: var(--strong-color);
+}
+
+.education ul li p,
+.languages ul li p {
+    margin-top: 10px;
+    line-height: 30px;
+    color: var(--p-color);
+}
+
+/* @media screen and (max-width:767px) {} */
+
+@media screen and (min-width:768px) {
+    .about {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .about {
+        width: 100%;
+    }
+
+    .secs {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .secs section {
+        width: 45%;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width:600px) {
+    .content h4 {
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 5px;
+        text-align: justify;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        color: #045483;
+    }
+
+    .about section {
+        margin: 30px 40px;
+        padding: 10px;
+    }
+}

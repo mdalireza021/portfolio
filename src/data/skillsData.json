@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "title": "HTML and CSS",
+        "desc": [
+            "HTML5",
+            "CSS3",
+            "Tailwind CSS",
+            "Bootstrap"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Programming Languages",
+        "desc": [
+            "C++",
+            "JavaScript",
+            "Java",
+            "Python"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Frameworks and Libraries",
+        "desc": [
+            "Angular",
+            "React",
+            "Node.js",
+            "Express"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Database",
+        "desc": [
+            "MySQL",
+            "MongoDB"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Tools",
+        "desc": [
+            "Git",
+            "Github",
+            "Postman",
+            "Docker"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Others",
+        "desc": [
+            "Figma",
+            "Linux"
+        ]
+    }
+]
