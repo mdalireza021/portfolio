@@ -1,10 +1,10 @@
 # Portfolio
 
-A portfolio single page application using React
+This is my personal web portfolio application, built using React. It showcases my skills, experience, and projects in a clean and modern design.
 
 
 ## Author
-[Md. Ali Reza](https://github.com/rahmanreza646)
+[Md Ali Reza](https://github.com/mdalireza021)
 
 ## Available Scripts
 
@@ -74,6 +74,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+## Contributing
+
+This application is a personal project, but if you find a bug or have a suggestion for improvement, feel free to open an issue or submit a pull request.
 
 ## Thanks!
 
