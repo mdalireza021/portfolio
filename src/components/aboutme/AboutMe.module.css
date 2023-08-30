@@ -3,6 +3,7 @@
     min-height: 100vh;
     background: var(--bg-color-sec);
 }
+
 .about h1 {
     padding-bottom: 25px;
     line-height: 1;
@@ -12,12 +13,10 @@
 }
 
 .content h4 {
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 50px 40px 0 40px;
     padding: 30px;
     text-align: justify;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 25px;
     color: #045483;
 }
@@ -28,13 +27,14 @@
 }
 
 .education ul,
-.languages ul {
-    /* border-left: 1px solid #47a3da; */
+.experience ul {
+    border-left: 1px solid #47a3da;
 }
 
 .education ul li,
-.languages ul li {
+.experience ul li {
     margin-top: 10px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     padding: 0 16px;
@@ -42,20 +42,20 @@
 }
 
 .education ul li::after,
-.languages ul li::after {
+.experience ul li::after {
     content: '';
     display: block;
     position: absolute;
-    top: 11px;
+    top: 10px;
     left: -5px;
-    width: 9px;
-    height: 9px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background: #47a3da;
 }
 
 .education ul li span,
-.languages ul li span {
+.experience ul li span {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -63,20 +63,18 @@
 }
 
 .education ul li strong,
-.languages ul li strong {
+.experience ul li strong {
     margin-top: 8px;
     font-size: 17px;
     color: var(--strong-color);
 }
 
 .education ul li p,
-.languages ul li p {
+.experience ul li p {
     margin-top: 10px;
     line-height: 30px;
     color: var(--p-color);
 }
-
-/* @media screen and (max-width:767px) {} */
 
 @media screen and (min-width:768px) {
     .about {
@@ -89,14 +87,14 @@
         width: 100%;
     }
 
-    .secs {
+    .section {
         display: flex;
         justify-content: space-between;
     }
 
-    .secs section {
+    .section section {
         width: 45%;
-        margin-top: 60px;
+        margin-top: 50px;
     }
 }
 

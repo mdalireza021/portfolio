@@ -19,7 +19,7 @@ const App = () => {
     <CommonStyles language={language}>
       <div className="App">
         <Layout handleOnclick={handleOnclick} />
-        
+
       </div>
     </CommonStyles>
   );
@@ -47,8 +47,10 @@ const CommonStyles = styled.div`
   form textarea,
   form button {
     font-family: ${(props) =>
-      props.language === "en" ? "'Poppins', sans-serif" : ""};
+    props.language === "en" ? "'Poppins', sans-serif" : ""};
 
     font-family: ${(props) =>
-      props.language === "ko" ? "'Gowun Dodum', sans-serif" : ""};
+    props.language === "ko" ? "'Gowun Dodum', sans-serif" : ""};
+
+
   }`;

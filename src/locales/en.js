@@ -17,11 +17,11 @@ export const TRANSLATIONS_EN = {
  
   ///==========> About Me <==========\\\
 
-  about: "Assalamu Alaikum! My name is Md Ali Reza and I am a tech enthusiast and dedicated learner. I completed my graduation from Daffodil International University, where I gained extensive knowledge and hands-on experience in software development. Throughout my studies, I have worked on various projects on frontend and backend frameworks such as Angular, React, Node, and Express.js. I have a thorough understanding of the Software Development Life Cycle (SDLC) and strive to develop standard and valuable projects as a passionate and professional Software Engineer.",
+about: "Hello! I'm Md Ali Reza, a passionate tech enthusiast and dedicated learner. I'm currently working on developing Android and iOS applications alongside a fantastic group of individuals at Brain Station 23. As a developer, I place a strong emphasis on building a solid foundation by utilizing suitable data structures, algorithms, and creating efficient architectures even before I start codingCrafting user-friendly and intuitive interfaces is my passion.\n\nI always seek the best possible solutions with optimal time complexity through writing clean, reusable, and test-driven code. I take great pride in maintaining strictness in code quality. I'm not one to shy away from challenges.I constantly seek to learn new technologies to further enhance my skills and knowledge.\n\nAt the moment, I'm focusing on iOS application design and development using SwiftUI, UIKit, RESTful APIs, JSON, and MVVM architecture pattern. With a strong interest in adopting technologies early, I'm always excited to explore and tackle new opportunities. Let's build something amazing together!",
   ///---------->Education<----------\\\
   education: "Education",
 
-  educationYearOne: "2017 - 2022",
+  educationYearOne: "May 2017 - January 2022",
   educationTitleOne: "Daffodil International University",
   educationTextOne: "B.Sc. in Computer Science and Engineering",
 
@@ -31,12 +31,18 @@ export const TRANSLATIONS_EN = {
 
   ///---------->Experience<----------\\\
   experience: "Experience",
-  experienceYearOne: "2023 - Present",
-  experienceTitleOne: "Software Engineer Trainee",
+
+  experienceYearOne: "July 2023 - Present",
+  experienceTitleOne: "Associate Software Engineer",
   experienceTextOne: "Brain Station 23 Ltd.",
-  experienceYearTwo: "2018",
-  experienceTitleTwo: "Student Prefect",
-  experienceTextTwo: "Daffodil International University",
+
+  experienceYearTwo: "March 2023 - June 2023",
+  experienceTitleTwo: "Software Engineer Trainee",
+  experienceTextTwo: "Brain Station 23 Ltd.",
+
+  // experienceYearThree: "2018",
+  // experienceTitleThree: "Student Prefect",
+  // experienceTextThree: "Daffodil International University",
 
   ///----------> Skills <-------------\\\
   skillsTwo: "Skills",

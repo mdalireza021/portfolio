@@ -12,16 +12,15 @@ const AboutMe = () => {
       animate={{ opacity: 1, transform: "translateX(0%)" }}
       exit={{ opacity: 0, transform: "translateX(0%)" }}
       transition={{ duration: 0.8 }}
-    //className={styles.resume}
     >
-      <div className={`resume ${styles.about}`}>
+      <div className={`about ${styles.about}`}>
         <h1>{t("aboutme")}</h1>
 
         <div className={styles.content}>
           <h4>{t("about")}</h4>
         </div>
 
-        <div className={styles.secs}>
+        <div className={styles.section}>
           <section className={`education ${styles.education}`}>
             <article className="title">
               <h4>{t("education")}</h4>
@@ -29,13 +28,6 @@ const AboutMe = () => {
             </article>
 
             <ul>
-              {/*<li>
-                <span>{t("educationYearTwo")}</span>
-                <strong>{t("educationTitleTwo")}</strong>
-                <p>{t("educationTextTwo")}</p>
-              </li>
-              */}
-
               <li>
                 <span>{t("educationYearOne")}</span>
                 <strong>{t("educationTitleOne")}</strong>
@@ -44,7 +36,7 @@ const AboutMe = () => {
             </ul>
           </section>
 
-          <section className={`languages ${styles.languages}`}>
+          <section className={`experience ${styles.experience}`}>
             <article className="title">
               <h4>{t("experience")}</h4>
               <img src={img.zigzag} alt="zigzag" />

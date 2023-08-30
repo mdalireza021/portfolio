@@ -15,6 +15,9 @@ i18n
       ko: {
         translation: TRANSLATIONS_KO,
       },
+      jpn: {
+        translation: TRANSLATIONS_EN,
+      },
     },
   })
 

@@ -16,11 +16,10 @@ export const TRANSLATIONS_KO = {
   
   ///==========> About Me <==========\\\
 
-  about: "아살라무 알라이쿰! 제 이름은 무하마드 알리 레자 이고 저는 기술 애호가이자 헌신적인 학습자입니다. 저는 다포딜 국제 대학 에서 소프트웨어 개발에 대한 광범위한 지식과 실무 경험을 습득하여 졸업했습니다. 공부하는 동안 Angular, React, Node 및 Express.js와 같은 프런트엔드 및 백엔드 프레임워크에 대한 다양한 프로젝트에 참여했습니다. 저는 소프트웨어 개발 수명 주기(SDLC)에 대한 철저한 이해를 가지고 있으며 열정적이고 전문적인 소프트웨어 엔지니어로서 표준적이고 가치 있는 프로젝트를 개발하기 위해 노력합니다.",
-
+ about:"안녕하세요! 저는 열정적인 기술 애호가이자 헌신적인 학습자인 Md Ali Reza입니다. 저는 현재 Brain Station 23에서 환상적인 개인 그룹과 함께 Android 및 iOS 애플리케이션 개발을 진행하고 있습니다. 개발자로서 저는 이전부터 적합한 데이터 구조, 알고리즘을 활용하고 효율적인 아키텍처를 만들어 탄탄한 기반을 구축하는 데 중점을 두고 있습니다. 저는 코딩을 시작합니다. 사용자 친화적이고 직관적인 인터페이스를 만드는 것이 저의 열정입니다.\n\n저는 항상 깨끗하고 재사용 가능하며 테스트 중심의 코드를 작성하여 최적의 시간 복잡도로 가능한 최고의 솔루션을 추구합니다. 나는 코드 품질의 엄격함을 유지하는 데 큰 자부심을 가지고 있습니다. 나는 도전을 두려워하지 않습니다. 나는 나의 기술과 지식을 더욱 향상시키기 위해 끊임없이 새로운 기술을 배우려고 노력합니다.\n\n현재 저는 SwiftUI, UIKit, RESTful API, JSON 및 MVVM 아키텍처 패턴을 사용하여 iOS 애플리케이션 설계 및 개발에 집중하고 있습니다. 기술을 조기에 채택하는 데 큰 관심을 갖고 있기 때문에 항상 새로운 기회를 탐색하고 활용하는 것을 기쁘게 생각합니다. 함께 놀라운 것을 만들어 봅시다!",
    //---------->Education<----------\\
    education: "교육",
-   educationYearOne: "2017 - 2022",
+   educationYearOne: "May 2017 - January 2022",
    educationTitleOne: "Daffodil International University",
    educationTextOne: "B.Sc. in Computer Science and Engineering",
   
@@ -30,13 +29,19 @@ export const TRANSLATIONS_KO = {
 
    //---------->Experience<----------\\
   experience: "경험",
-  experienceYearOne: "2023 - Present",
-  experienceTitleOne: "Software Engineer Trainee",
-  experienceTextOne:"Brain Station 23 Ltd.",
 
-  experienceYearTwo: "2018",
-  experienceTitleTwo:"Student Prefect",
-  experienceTextTwo:"Daffodil International University",
+  experienceYearOne: "July 2023 - Present",
+  experienceTitleOne: "Associate Software Engineer",
+  experienceTextOne: "Brain Station 23 Ltd.",
+
+  experienceYearTwo: "March 2023 - June 2023",
+  experienceTitleTwo: "Software Engineer Trainee",
+  experienceTextTwo: "Brain Station 23 Ltd.",
+
+  // experienceYearThree: "2018",
+  // experienceTitleThree: "Student Prefect",
+  // experienceTextThree: "Daffodil International University",
+
 
 ///----------> Skills <-------------\\\
 skillsTwo:"숙련",

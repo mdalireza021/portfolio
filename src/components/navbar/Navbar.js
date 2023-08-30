@@ -146,6 +146,7 @@ const Navbar = ({ handleOnclick, location }) => {
             <div className={styles.btns}>
               <button value="en" onClick={handleOnclick} />
               <button value="ko" onClick={handleOnclick} />
+              <button value="jpn" onClick={handleOnclick} />
             </div>
           </nav>
         ) :
@@ -252,6 +253,7 @@ const Navbar = ({ handleOnclick, location }) => {
               <div className={styles.btns}>
                 <button value="en" onClick={handleOnclick}></button>
                 <button value="ko" onClick={handleOnclick}></button>
+                <button value="en" onClick={handleOnclick}></button>
               </div>
             </nav>
           )}

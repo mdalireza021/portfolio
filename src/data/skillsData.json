@@ -1,50 +1,49 @@
 [
     {
+       
         "id": 0,
-        "title": "HTML and CSS",
-        "desc": [
-            "HTML5",
-            "CSS3",
-            "Tailwind CSS",
-            "Bootstrap"
-        ]
-    },
-    {
-        "id": 1,
         "title": "Programming Languages",
         "desc": [
-            "C++",
+            "Swift",
+            "Dart",
             "JavaScript",
-            "Java",
+            "TypeScript",
+            "C++",
+            "Java", 
             "Python"
         ]
     },
     {
-        "id": 2,
+        "id": 1,
         "title": "Frameworks and Libraries",
         "desc": [
+            "SwiftUI",
+            "Flutter",
+            "Ionic",
             "Angular",
             "React",
-            "Node.js",
+            "Node",
             "Express"
         ]
     },
     {
-        "id": 3,
+        "id": 2,
         "title": "Database",
         "desc": [
             "MySQL",
             "MongoDB"
         ]
     },
+    
     {
-        "id": 4,
+        "id": 3,
         "title": "Tools",
         "desc": [
+            "Xcode",
+            "VS Code",
             "Git",
             "Github",
-            "Postman",
-            "Docker"
+            "Postman"
         ]
     },
     {

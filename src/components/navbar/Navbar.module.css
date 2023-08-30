@@ -146,6 +146,9 @@
 .btns button:nth-of-type(2) {
     background-image: url('../../assets/icons/korean-flag.svg');
 }
+.btns button:nth-of-type(3) {
+    background-image: url('../../assets/icons/japan-flag.svg');
+}
 
 /* menu in mobile and Tablet */
 .menuTM {
